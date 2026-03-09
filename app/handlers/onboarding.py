@@ -1,1 +1,108 @@
-ZnJvbSBhaW9ncmFtIGltcG9ydCBSb3V0ZXIsIEYKZnJvbSBhaW9ncmFtLmZpbHRlcnMgaW1wb3J0IENvbW1hbmQKZnJvbSBhaW9ncmFtLmZzbS5jb250ZXh0IGltcG9ydCBGU01Db250ZXh0CmZyb20gYWlvZ3JhbS50eXBlcyBpbXBvcnQgTWVzc2FnZSwgQ2FsbGJhY2tRdWVyeQpmcm9tIGFwcC5zdGF0ZXMgaW1wb3J0IE9uYm9hcmRpbmdTdGF0ZXMKZnJvbSBhcHAuZGF0YWJhc2UgaW1wb3J0IHNhdmVfdXNlcgpmcm9tIGFwcC5haV9zZXJ2aWNlIGltcG9ydCBnZW5lcmF0ZV93b3Jrb3V0X3Byb2dyYW0KZnJvbSBhcHAua2V5Ym9hcmRzIGltcG9ydCAoCiAgICBnb2Fsc19rZXlib2FyZCwgZXhwZXJpZW5jZV9rZXlib2FyZCwgbWFpbl9tZW51X2tleWJvYXJkLAogICAgY2FuY2VsX2tleWJvYXJkLCBHT0FMX0xBQkVMUywgRVhQX0xBQkVMUwopCgpyb3V0ZXIgPSBSb3V0ZXIoKQoKQHJvdXRlci5tZXNzYWdlKENvbW1hbmQoInByb2ZpbGUiKSkKYXN5bmMgZGVmIGNtZF9wcm9maWxlKG1lc3NhZ2U6IE1lc3NhZ2UsIHN0YXRlOiBGU01Db250ZXh0KToKICAgIGF3YWl0IHN0YXRlLnNldF9zdGF0ZShPbmJvYXJkaW5nU3RhdGVzLm5hbWUpCiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigKICAgICAgICAi0J7RgtC70LjRh9C90L4hINCU0LDQstCw0Lkg0YHQvtGB0YLQsNCy0LjQvCDRgtCy0L7QuSDQv9GA0L7RhNC40LvRjCDwn5KqXG5cbtCa0LDQuiDRgtC10LHRjyDQt9C+0LLRg9GCPyIsCiAgICAgICAgcmVwbHlfbWFya3VwPWNhbmNlbF9rZXlib2FyZCgpCiAgICApCgpAcm91dGVyLm1lc3NhZ2UoT25ib2FyZGluZ1N0YXRlcy5uYW1lKQphc3luYyBkZWYgcHJvY2Vzc19uYW1lKG1lc3NhZ2U6IE1lc3NhZ2UsIHN0YXRlOiBGU01Db250ZXh0KToKICAgIGlmIG1lc3NhZ2UudGV4dCA9PSAi4p2MINCe0YLQvNC10L3QsCI6CiAgICAgICAgYXdhaXQgc3RhdGUuY2xlYXIoKQogICAgICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQntGC0LzQtdC90LXQvdC+LiIsIHJlcGx5X21hcmt1cD1tYWluX21lbnVfa2V5Ym9hcmQoKSkKICAgICAgICByZXR1cm4KICAgIGF3YWl0IHN0YXRlLnVwZGF0ZV9kYXRhKG5hbWU9bWVzc2FnZS50ZXh0KQogICAgYXdhaXQgc3RhdGUuc2V0X3N0YXRlKE9uYm9hcmRpbmdTdGF0ZXMuYWdlKQogICAgYXdhaXQgbWVzc2FnZS5hbnN3ZXIoZiLQn9GA0LjRj9GC0L3QviDQv9C+0LfQvdCw0LrQvtC80LjRgtGM0YHRjywge21lc3NhZ2UudGV4dH0hINCh0LrQvtC70YzQutC+INGB0LXQsdC1INC70LXRgj8iKQoKQHJvdXRlci5tZXNzYWdlKE9uYm9hcmRpbmdTdGF0ZXMuYWdlKQphc3luYyBkZWYgcHJvY2Vzc19hZ2UobWVzc2FnZTogTWVzc2FnZSwgc3RhdGU6IEZTTUNvbnRleHQpOgogICAgaWYgbm90IG1lc3NhZ2UudGV4dC5pc2RpZ2l0KCkgb3Igbm90ICgxMCA8PSBpbnQobWVzc2FnZS50ZXh0KSA8PSAxMDApOgogICAgICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQktCy0LXQtNC4INC60L7RgNGA0LXQutGC0L3Ri9C5INCy0L7Qt9GA0LDRgdGCICgxMC0xMDApOiIpCiAgICAgICAgcmV0dXJuCiAgICBhd2FpdCBzdGF0ZS51cGRhdGVfZGF0YShhZ2U9aW50KG1lc3NhZ2UudGV4dCkpCiAgICBhd2FpdCBzdGF0ZS5zZXRfc3RhdGUoT25ib2FyZGluZ1N0YXRlcy53ZWlnaHQpCiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigi0KLQstC+0Lkg0YLQtdC60YPRidC40Lkg0LLQtdGBICjQutCzKT8iKQoKQHJvdXRlci5tZXNzYWdlKE9uYm9hcmRpbmdTdGF0ZXMud2VpZ2h0KQphc3luYyBkZWYgcHJvY2Vzc193ZWlnaHQobWVzc2FnZTogTWVzc2FnZSwgc3RhdGU6IEZTTUNvbnRleHQpOgogICAgdHJ5OgogICAgICAgIHdlaWdodCA9IGZsb2F0KG1lc3NhZ2UudGV4dC5yZXBsYWNlKCIsIiwgIi4iKSkKICAgICAgICBpZiBub3QgKDMwIDw9IHdlaWdodCA8PSAzMDApOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yCiAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigi0JLQstC10LTQuCDQutC+0YDRgNC10LrRgtC90YvQuSDQstC10YEgKDMwLTMwMCDQutCzKToiKQogICAgICAgIHJldHVybgogICAgYXdhaXQgc3RhdGUudXBkYXRlX2RhdGEod2VpZ2h0PXdlaWdodCkKICAgIGF3YWl0IHN0YXRlLnNldF9zdGF0ZShPbmJvYXJkaW5nU3RhdGVzLmhlaWdodCkKICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQotCy0L7QuSDRgNC+0YHRgiAo0YHQvCk/IikKCkByb3V0ZXIubWVzc2FnZShPbmJvYXJkaW5nU3RhdGVzLmhlaWdodCkKYXN5bmMgZGVmIHByb2Nlc3NfaGVpZ2h0KG1lc3NhZ2U6IE1lc3NhZ2UsIHN0YXRlOiBGU01Db250ZXh0KToKICAgIHRyeToKICAgICAgICBoZWlnaHQgPSBpbnQobWVzc2FnZS50ZXh0KQogICAgICAgIGlmIG5vdCAoMTAwIDw9IGhlaWdodCA8PSAyNTApOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yCiAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigi0JLQstC10LTQuCDQutC+0YDRgNC10LrRgtC90YvQuSDRgNC+0YHRgiAoMTAwLTI1MCDRgdC8KToiKQogICAgICAgIHJldHVybgogICAgYXdhaXQgc3RhdGUudXBkYXRlX2RhdGEoaGVpZ2h0PWheaWdodCkKICAgIGF3YWl0IHN0YXRlLnNldF9zdGF0ZShPbmJvYXJkaW5nU3RhdGVzLmdvYWwpCiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigi0JrQsNC60LDRjyDRgyDRgtC10LHRjyDRhtC10LvRjD8iLCByZXBseV9tYXJrdXA9Z29hbHNfa2V5Ym9hcmQoKSkKCkByb3V0ZXIuY2FsbGJhY2tfcXVlcnkoT25ib2FyZGluZ1N0YXRlcy5nb2FsLCBGLmRhdGEuc3RhcnRzd2l0aCgiZ29hbF8iKSkKYXN5bmMgZGVmIHByb2Nlc3NfZ29hbChjYWxsYmFjazogQ2FsbGJhY2tRdWVyeSwgc3RhdGU6IEZTTUNvbnRleHQpOgogICAgZ29hbF9sYWJlbCA9IEdPQUxfTEFCRUxTLmdldChjYWxsYmFjay5kYXRhLCBjYWxsYmFjay5kYXRhKQogICAgYXdhaXQgc3RhdGUudXBkYXRlX2RhdGEoZ29hbD1nb2FsX2xhYmVsLnNwbGl0KCIgIiwgMSlbMV0pCiAgICBhd2FpdCBzdGF0ZS5zZXRfc3RhdGUoT25ib2FyZGluZ1N0YXRlcy5leHBlcmllbmNlKQogICAgYXdhaXQgY2FsbGJhY2subWVzc2FnZS5lZGl0X3RleHQoItCa0LDQutC+0Lkg0YMg0YLQtdCx0Y8g0YPRgNC+0LLQtdC90Ywg0L/QvtC00LPQvtGC0L7QstC60Lg/IiwgcmVwbHlfbWFya3VwPWV4cGVyaWVuY2Vfa2V5Ym9hcmQoKSkKICAgIGF3YWl0IGNhbGxiYWNrLmFuc3dlcigpCgpAcm91dGVyLmNhbGxiYWNrX3F1ZXJ5KE9uYm9hcmRpbmdTdGF0ZXMuZXhwZXJpZW5jZSwgRi5kYXRhLnN0YXJ0c3dpdGgoImV4cF8iKSkKYXN5bmMgZGVmIHByb2Nlc3NfZXhwZXJpZW5jZShjYWxsYmFjazogQ2FsbGJhY2tRdWVyeSwgc3RhdGU6IEZTTUNvbnRleHQpOgogICAgZXhwX2xhYmVsID0gRVhQX0xBQkVMUy5nZXQoY2FsbGJhY2suZGF0YSwgY2FsbGJhY2suZGF0YSkKICAgIGF3YWl0IHN0YXRlLnVwZGF0ZV9kYXRhKGV4cGVyaWVuY2U9ZXhwX2xhYmVsLnNwbGl0KCIgIiwgMSlbMV0pCiAgICBhd2FpdCBzdGF0ZS5zZXRfc3RhdGUoT25ib2FyZGluZ1N0YXRlcy5kYXlzX3Blcl93ZWVrKQogICAgYXdhaXQgY2FsbGJhY2subWVzc2FnZS5lZGl0X3RleHQoItCh0LrQvtC70YzQutC+INC00L3QtdC5INCyINC90LXQtNC10LvRjiDQv9C70LDQvdC40YDRg9C10YjRjCDRgtGA0LXQvdC40YDQvtCy0LDRgtGM0YHRjz8gKDEtNykiKQogICAgYXdhaXQgY2FsbGJhY2suYW5zd2VyKCkKCkByb3V0ZXIubWVzc2FnZShPbmJvYXJkaW5nU3RhdGVzLmRheXNfcGVyX3dlZWspCmFzeW5jIGRlZiBwcm9jZXNzX2RheXMobWVzc2FnZTogTWVzc2FnZSwgc3RhdGU6IEZTTUNvbnRleHQpOgogICAgaWYgbm90IG1lc3NhZ2UudGV4dC5pc2RpZ2l0KCkgb3Igbm90ICgxIDw9IGludChtZXNzYWdlLnRleHQpIDw9IDcpOgogICAgICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQktCy0LXQtNC4INGH0LjRgdC70L4g0L7RgiAxINC00L4gNzoiKQogICAgICAgIHJldHVybgogICAgYXdhaXQgc3RhdGUudXBkYXRlX2RhdGEoZGF5c19wZXJfd2Vlaz1pbnQobWVzc2FnZS50ZXh0KSkKICAgIGF3YWl0IHN0YXRlLnNldF9zdGF0ZShPbmJvYXJkaW5nU3RhdGVzLmVxdWlwbWVudCkKICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQmtCw0LrQvtC1INC+0LHQvtGA0YPQtNC+0LLQsNC90LjQtSDQtNC+0YHRgtGD0L/QvdC+PyAo0L3QsNC/0YDQuNC80LXRgDog0YjRgtCw0L3Qs9CwLCDQs9Cw0L3RgtC10LvQuCwg0YLRgNC10L3QsNC20ZHRgNGLIC8g0YLQvtC70YzQutC+INGB0LLQvtGRINGC0LXQu9C+KSIpCgpAcm91dGVyLm1lc3NhZ2UoT25ib2FyZGluZ1N0YXRlcy5lcXVpcG1lbnQpCmFzeW5jIGRlZiBwcm9jZXNzX2VxdWlwbWVudChtZXNzYWdlOiBNZXNzYWdlLCBzdGF0ZTogRlNNQ29udGV4dCk6CiAgICBhd2FpdCBzdGF0ZS51cGRhdGVfZGF0YShlcXVpcG1lbnQ9bWVzc2FnZS50ZXh0KQogICAgZGF0YSA9IGF3YWl0IHN0YXRlLmdldF9kYXRhKCkKICAgIGF3YWl0IHN0YXRlLmNsZWFyKCkKICAgIAogICAgc2F2ZV91c2VyKG1lc3NhZ2UuZnJvbV91c2VyLmlkLCBkYXRhKQogICAgCiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigi4o+zINCT0LXQvdC10YDQuNGA0YPRjiDRgtCy0L7RjiDQv9GA0L7Qs9GA0LDQvNC80YMg0YLRgNC10L3QuNGA0L7QstC+0LouLi4iLCByZXBseV9tYXJrdXA9bWFpbl9tZW51X2tleWJvYXJkKCkpCiAgICBwcm9ncmFtID0gZ2VuZXJhdGVfd29ya291dF9wcm9ncmFtKGRhdGEpCiAgICBzYXZlX3VzZXIobWVzc2FnZS5mcm9tX3VzZXIuaWQsIHsicHJvZ3JhbSI6IHByb2dyYW19KQogICAgCiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigKICAgICAgICBmIuKchSDQn9GA0L7RhNC40LvRjCDRgdC+0LfQtNCw0L0hXG5cbntwcm9ncmFtfSIsCiAgICAgICAgcGFyc2VfbW9kZT0iTWFya2Rvd24iCiAgICApCg==
+from aiogram import Router, F
+from aiogram.filters import Command
+from aiogram.fsm.context import FSMContext
+from aiogram.types import Message, CallbackQuery
+from app.states import OnboardingStates
+from app.database import save_user
+from app.ai_service import generate_workout_program
+from app.keyboards import (
+    goals_keyboard, experience_keyboard, main_menu_keyboard,
+    cancel_keyboard, GOAL_LABELS, EXP_LABELS
+)
+
+router = Router()
+
+@router.message(Command("profile"))
+async def cmd_profile(message: Message, state: FSMContext):
+    await state.set_state(OnboardingStates.name)
+    await message.answer(
+        "Отлично! Давай составим твой профиль 💪\n\nКак тебя зовут?",
+        reply_markup=cancel_keyboard()
+    )
+
+@router.message(OnboardingStates.name)
+async def process_name(message: Message, state: FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        await message.answer("Отменено.", reply_markup=main_menu_keyboard())
+        return
+    await state.update_data(name=message.text)
+    await state.set_state(OnboardingStates.age)
+    await message.answer(f"Приятно познакомиться, {message.text}! Сколько тебе лет?")
+
+@router.message(OnboardingStates.age)
+async def process_age(message: Message, state: FSMContext):
+    if not message.text.isdigit() or not (10 <= int(message.text) <= 100):
+        await message.answer("Введи корректный возраст (10-100):")
+        return
+    await state.update_data(age=int(message.text))
+    await state.set_state(OnboardingStates.weight)
+    await message.answer("Твой текущий вес (кг)?")
+
+@router.message(OnboardingStates.weight)
+async def process_weight(message: Message, state: FSMContext):
+    try:
+        weight = float(message.text.replace(",", "."))
+        if not (30 <= weight <= 300):
+            raise ValueError
+    except ValueError:
+        await message.answer("Введи корректный вес (30-300 кг):")
+        return
+    await state.update_data(weight=weight)
+    await state.set_state(OnboardingStates.height)
+    await message.answer("Твой рост (см)?")
+
+@router.message(OnboardingStates.height)
+async def process_height(message: Message, state: FSMContext):
+    try:
+        height = int(message.text)
+        if not (100 <= height <= 250):
+            raise ValueError
+    except ValueError:
+        await message.answer("Введи корректный рост (100-250 см):")
+        return
+    await state.update_data(height=height)
+    await state.set_state(OnboardingStates.goal)
+    await message.answer("Какая у тебя цель?", reply_markup=goals_keyboard())
+
+@router.callback_query(OnboardingStates.goal, F.data.startswith("goal_"))
+async def process_goal(callback: CallbackQuery, state: FSMContext):
+    goal_label = GOAL_LABELS.get(callback.data, callback.data)
+    await state.update_data(goal=goal_label.split(" ", 1)[1])
+    await state.set_state(OnboardingStates.experience)
+    await callback.message.edit_text("Какой у тебя уровень подготовки?", reply_markup=experience_keyboard())
+    await callback.answer()
+
+@router.callback_query(OnboardingStates.experience, F.data.startswith("exp_"))
+async def process_experience(callback: CallbackQuery, state: FSMContext):
+    exp_label = EXP_LABELS.get(callback.data, callback.data)
+    await state.update_data(experience=exp_label.split(" ", 1)[1])
+    await state.set_state(OnboardingStates.days_per_week)
+    await callback.message.edit_text("Сколько дней в неделю планируешь тренироваться? (1-7)")
+    await callback.answer()
+
+@router.message(OnboardingStates.days_per_week)
+async def process_days(message: Message, state: FSMContext):
+    if not message.text.isdigit() or not (1 <= int(message.text) <= 7):
+        await message.answer("Введи число от 1 до 7:")
+        return
+    await state.update_data(days_per_week=int(message.text))
+    await state.set_state(OnboardingStates.equipment)
+    await message.answer("Какое оборудование доступно? (например: штанга, гантели, тренажёры / только своё тело)")
+
+@router.message(OnboardingStates.equipment)
+async def process_equipment(message: Message, state: FSMContext):
+    await state.update_data(equipment=message.text)
+    data = await state.get_data()
+    await state.clear()
+    
+    save_user(message.from_user.id, data)
+    
+    await message.answer("⏳ Генерирую твою программу тренировок...", reply_markup=main_menu_keyboard())
+    program = generate_workout_program(data)
+    save_user(message.from_user.id, {"program": program})
+    
+    await message.answer(
+        f"✅ Профиль создан!\n\n{program}",
+        parse_mode="Markdown"
+    )
