@@ -13,9 +13,9 @@ class OnboardingStates(StatesGroup):
 
 
 class WorkoutStates(StatesGroup):
-    logging_exercise = State()
-    logging_sets = State()
-    logging_weight = State()
+    viewing_exercise = State()   # показываем упражнение с видео
+    logging_set = State()        # ждём ввод "вес x повторений"
+    between_sets = State()       # между подходами
 
 
 class SettingsStates(StatesGroup):
