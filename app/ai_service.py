@@ -1,17 +1,19 @@
-from .config import ANTHROPIC_API_KEY
+import os
+import urllib.request
+import urllib.error
+import json
+from .config import GEMINI_API_KEY
 
 
 def generate_workout_program(user_profile: dict) -> str:
-    """Generate a personalized workout program using Claude API.
+    """Generate a personalized workout program using Gemini API.
     If no API key, return a default program."""
-    if not ANTHROPIC_API_KEY:
+    if not GEMINI_API_KEY:
         goal = user_profile.get("goal", "Поддержание формы")
         days = user_profile.get("days_per_week", 3)
         experience = user_profile.get("experience", "Новичок")
         return generate_default_program(goal, days, experience)
 
-    import anthropic
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     prompt = f"""Создай персональную программу тренировок на основе профиля:
 Имя: {user_profile.get('name')}
 Возраст: {user_profile.get('age')} лет
@@ -27,19 +29,28 @@ def generate_workout_program(user_profile: dict) -> str:
 - 4-6 упражнений с подходами и повторениями
 Ответ на русском языке."""
 
-    message = client.messages.create(
-        model="claude-3-5-haiku-20241022",
-        max_tokens=1500,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    return message.content[0].text
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    payload = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"maxOutputTokens": 1500}
+    }).encode("utf-8")
+
+    req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"}, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            return data["candidates"][0]["content"]["parts"][0]["text"]
+    except Exception as e:
+        goal = user_profile.get("goal", "Поддержание формы")
+        days = user_profile.get("days_per_week", 3)
+        experience = user_profile.get("experience", "Новичок")
+        return generate_default_program(goal, days, experience)
 
 
 def generate_default_program(goal: str, days: int, experience: str) -> str:
     """Hardcoded default programs based on goal."""
     days = max(1, min(days, 7))
 
-    # Base exercises per category
     weight_loss_days = [
         ("🔥 День 1 — Всё тело (кардио + силовые)",
          ["Приседания 4×15", "Отжимания 3×12", "Бег на месте 3×1 мин", "Планка 3×60 сек", "Бурпи 3×10"]),
@@ -94,6 +105,6 @@ def generate_default_program(goal: str, days: int, experience: str) -> str:
         day_title, exercises = program_days[i % len(program_days)]
         lines.append(f"\n*{day_title}*")
         for ex in exercises:
-            lines.append(f"  \u2022 {ex}")
+            lines.append(f"  • {ex}")
 
     return "\n".join(lines)
