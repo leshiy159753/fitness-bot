@@ -1,1 +1,86 @@
-ZnJvbSBhaW9ncmFtIGltcG9ydCBSb3V0ZXIsIEYKZnJvbSBhaW9ncmFtLmZpbHRlcnMgaW1wb3J0IENvbW1hbmQKZnJvbSBhaW9ncmFtLmZzbS5jb250ZXh0IGltcG9ydCBGU01Db250ZXh0CmZyb20gYWlvZ3JhbS50eXBlcyBpbXBvcnQgTWVzc2FnZSwgQ2FsbGJhY2tRdWVyeQpmcm9tIGFwcC5kYXRhYmFzZSBpbXBvcnQgZ2V0X3VzZXIsIHNhdmVfdXNlcgpmcm9tIGFwcC5rZXlib2FyZHMgaW1wb3J0IHNldHRpbmdzX2tleWJvYXJkLCBtYWluX21lbnVfa2V5Ym9hcmQsIGdvYWxzX2tleWJvYXJkLCBjYW5jZWxfa2V5Ym9hcmQsIEdPQUxfTEFCRUxTCmZyb20gYXBwLnN0YXRlcyBpbXBvcnQgU2V0dGluZ3NTdGF0ZXMKZnJvbSBhcHAuYWlfc2VydmljZSBpbXBvcnQgZ2VuZXJhdGVfd29ya291dF9wcm9ncmFtCgpyb3V0ZXIgPSBSb3V0ZXIoKQoKQHJvdXRlci5tZXNzYWdlKENvbW1hbmQoInNldHRpbmdzIikpCkByb3V0ZXIubWVzc2FnZShGLnRleHQgPT0gIuKame+4jyDQndCw0YHRgtGA0L7QudC60LgiKQphc3luYyBkZWYgc2hvd19zZXR0aW5ncyhtZXNzYWdlOiBNZXNzYWdlKToKICAgIHVzZXIgPSBnZXRfdXNlcihtZXNzYWdlLmZyb21fdXNlci5pZCkKICAgIGlmIG5vdCB1c2VyOgogICAgICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQodC90LDRh9Cw0LvQsCDRgdC+0LfQtNCw0Lkg0L/RgNC+0YTQuNC70Yw6IC9wcm9maWxlIikKICAgICAgICByZXR1cm4KICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLimpnvuI8g0J3QsNGB0YLRgNC+0LnQutC4OiIsIHJlcGx5X21hcmt1cD1zZXR0aW5nc19rZXlib2FyZCgpKQoKQHJvdXRlci5jYWxsYmFja19xdWVyeShGLmRhdGEgPT0gInNldHRpbmdzX3dlaWdodCIpCmFzeW5jIGRlZiBlZGl0X3dlaWdodChjYWxsYmFjazogQ2FsbGJhY2tRdWVyeSwgc3RhdGU6IEZTTUNvbnRleHQpOgogICAgYXdhaXQgc3RhdGUuc2V0X3N0YXRlKFNldHRpbmdzU3RhdGVzLmVkaXRpbmdfd2VpZ2h0KQogICAgYXdhaXQgY2FsbGJhY2subWVzc2FnZS5hbnN3ZXIoItCS0LLQtdC00Lgg0L3QvtCy0YvQuSDQstC10YEgKNC60LMpOiIsIHJlcGx5X21hcmt1cD1jYW5jZWxfa2V5Ym9hcmQoKSkKICAgIGF3YWl0IGNhbGxiYWNrLmFuc3dlcigpCgpAcm91dGVyLm1lc3NhZ2UoU2V0dGluZ3NTdGF0ZXMuZWRpdGluZ193ZWlnaHQpCmFzeW5jIGRlZiBzYXZlX3dlaWdodChtZXNzYWdlOiBNZXNzYWdlLCBzdGF0ZTogRlNNQ29udGV4dCk6CiAgICBpZiBtZXNzYWdlLnRleHQgPT0gIuKdjCDQntGC0LzQtdC90LAiOgogICAgICAgIGF3YWl0IHN0YXRlLmNsZWFyKCkKICAgICAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigi0J7RgtC80LXQvdC10L3Qvi4iLCByZXBseV9tYXJrdXA9bWFpbl9tZW51X2tleWJvYXJkKCkpCiAgICAgICAgcmV0dXJuCiAgICB0cnk6CiAgICAgICAgd2VpZ2h0ID0gZmxvYXQobWVzc2FnZS50ZXh0LnJlcGxhY2UoIiwiLCAiLiIpKQogICAgICAgIGlmIG5vdCAoMzAgPD0gd2VpZ2h0IDw9IDMwMCk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IKICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQktCy0LXQtNC4INC60L7RgNGA0LXQutGC0L3Ri9C5INCy0LXRgSAoMzAtMzAwINC60LMpOiIpCiAgICAgICAgcmV0dXJuCiAgICBzYXZlX3VzZXIobWVzc2FnZS5mcm9tX3VzZXIuaWQsIHsid2VpZ2h0Ijogd2VpZ2h0fSkKICAgIGF3YWl0IHN0YXRlLmNsZWFyKCkKICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKGYi4pyFINCS0LXRgSDQvtCx0L3QvtCy0LvRkdC9OiB7d2VpZ2h0fSDQutCzIiwgcmVwbHlfbWFya3VwPW1haW5fbWVudV9rZXlib2FyZCgpKQoKQHJvdXRlci5jYWxsYmFja19xdWVyeShGLmRhdGEgPT0gInNldHRpbmdzX2dvYWwiKQphc3luYyBkZWYgZWRpdF9nb2FsKGNhbGxiYWNrOiBDYWxsYmFja1F1ZXJ5LCBzdGF0ZTogRlNNQ29udGV4dCk6CiAgICBhd2FpdCBzdGF0ZS5zZXRfc3RhdGUoU2V0dGluZ3NTdGF0ZXMuZWRpdGluZ19nb2FsKQogICAgYXdhaXQgY2FsbGJhY2subWVzc2FnZS5hbnN3ZXIoItCS0YvQsdC10YDQuCDQvdC+0LLRg9GOINGG0LXQu9GMOiIsIHJlcGx5X21hcmt1cD1nb2Fsc19rZXlib2FyZCgpKQogICAgYXdhaXQgY2FsbGJhY2suYW5zd2VyKCkKCkByb3V0ZXIuY2FsbGJhY2tfcXVlcnkoU2V0dGluZ3NTdGF0ZXMuZWRpdGluZ19nb2FsLCBGLmRhdGEuc3RhcnRzd2l0aCgiZ29hbF8iKSkKYXN5bmMgZGVmIHNhdmVfZ29hbChjYWxsYmFjazogQ2FsbGJhY2tRdWVyeSwgc3RhdGU6IEZTTUNvbnRleHQpOgogICAgZ29hbF9sYWJlbCA9IEdPQUxfTEFCRUxTLmdldChjYWxsYmFjay5kYXRhLCBjYWxsYmFjay5kYXRhKQogICAgZ29hbCA9IGdvYWxfbGFiZWwuc3BsaXQoIiAiLCAxKVsxXQogICAgc2F2ZV91c2VyKGNhbGxiYWNrLmZyb21fdXNlci5pZCwgeyJnb2FsIjogZ29hbH0pCiAgICBhd2FpdCBzdGF0ZS5jbGVhcigpCiAgICAKICAgIHVzZXIgPSBnZXRfdXNlcihjYWxsYmFjay5mcm9tX3VzZXIuaWQpCiAgICBwcm9ncmFtID0gZ2VuZXJhdGVfd29ya291dF9wcm9ncmFtKHVzZXIpCiAgICBzYXZlX3VzZXIoY2FsbGJhY2suZnJvbV91c2VyLmlkLCB7InByb2dyYW0iOiBwcm9ncmFtfSkKICAgIAogICAgYXdhaXQgY2FsbGJhY2subWVzc2FnZS5hbnN3ZXIoCiAgICAgICAgZiLinIUg0KbQtdC70Ywg0L7QsdC90L7QstC70LXQvdCwOiB7Z29hbF9sYWJlbH1cblxu0J/QtdGA0LXQs9C10L3QtdGA0LjRgNGD0Y4g0L/RgNC+0LPRgNCw0LzQvNGDLi4uXG5cbntwcm9ncmFtfSIsCiAgICAgICAgcGFyc2VfbW9kZT0iTWFya2Rvd24iLAogICAgICAgIHJlcGx5X21hcmt1cD1tYWluX21lbnVfa2V5Ym9hcmQoKQogICAgKQogICAgYXdhaXQgY2FsbGJhY2suYW5zd2VyKCkKCkByb3V0ZXIuY2FsbGJhY2tfcXVlcnkoRi5kYXRhID09ICJzZXR0aW5nc19wcm9maWxlIikKYXN5bmMgZGVmIHNob3dfcHJvZmlsZShjYWxsYmFjazogQ2FsbGJhY2tRdWVyeSk6CiAgICB1c2VyID0gZ2V0X3VzZXIoY2FsbGJhY2suZnJvbV91c2VyLmlkKQogICAgaWYgbm90IHVzZXI6CiAgICAgICAgYXdhaXQgY2FsbGJhY2suYW5zd2VyKCLQn9GA0L7RhNC40LvRjCDQvdC1INC90LDQudC00LXQvSIpCiAgICAgICAgcmV0dXJuCiAgICB0ZXh0ID0gKAogICAgICAgIGYi8J+RpCAq0J/RgNC+0YTQuNC70YwqXG5cbiIKICAgICAgICBmItCY0LzRjzoge3VzZXIuZ2V0KCduYW1lJyl9XG4iCiAgICAgICAgZiLQktC+0LfRgNCw0YHRgjoge3VzZXIuZ2V0KCdhZ2UnKX0g0LvQtdGCXG4iCiAgICAgICAgZiLQktC10YE6IHt1c2VyLmdldCgnd2VpZ2h0Jyl9INC60LNcbiIKICAgICAgICBmItCg0L7RgdGCOiB7dXNlci5nZXQoJ2hlaWdodCcpfSDRgdC8XG4iCiAgICAgICAgZiLQptC10LvRjDoge3VzZXIuZ2V0KCdnb2FsJyl9XG4iCiAgICAgICAgZiLQo9GA0L7QstC10L3RjDoge3VzZXIuZ2V0KCdleHBlcmllbmNlJyl9XG4iCiAgICAgICAgZiLQlNC90LXQuS/QvdC10LTQtdC70Y46IHt1c2VyLmdldCgnZGF5c19wZXJfd2VlaycpfVxuIgogICAgICAgIGYi0J7QsdC+0YDRg9C00L7QstCw0L3QuNC1OiB7dXNlci5nZXQoJ2VxdWlwbWVudCcpfSIKICAgICkKICAgIGF3YWl0IGNhbGxiYWNrLm1lc3NhZ2UuYW5zd2VyKHRleHQsIHBhcnNlX21vZGU9Ik1hcmtkb3duIikKICAgIGF3YWl0IGNhbGxiYWNrLmFuc3dlcigpCg==
+from aiogram import Router, F
+from aiogram.filters import Command
+from aiogram.fsm.context import FSMContext
+from aiogram.types import Message, CallbackQuery
+from app.database import get_user, save_user
+from app.keyboards import settings_keyboard, main_menu_keyboard, goals_keyboard, cancel_keyboard, GOAL_LABELS
+from app.states import SettingsStates
+from app.ai_service import generate_workout_program
+
+router = Router()
+
+@router.message(Command("settings"))
+@router.message(F.text == "⚙️ Настройки")
+async def show_settings(message: Message):
+    user = get_user(message.from_user.id)
+    if not user:
+        await message.answer("Сначала создай профиль: /profile")
+        return
+    await message.answer("⚙️ Настройки:", reply_markup=settings_keyboard())
+
+@router.callback_query(F.data == "settings_weight")
+async def edit_weight(callback: CallbackQuery, state: FSMContext):
+    await state.set_state(SettingsStates.editing_weight)
+    await callback.message.answer("Введи новый вес (кг):", reply_markup=cancel_keyboard())
+    await callback.answer()
+
+@router.message(SettingsStates.editing_weight)
+async def save_weight(message: Message, state: FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        await message.answer("Отменено.", reply_markup=main_menu_keyboard())
+        return
+    try:
+        weight = float(message.text.replace(",", "."))
+        if not (30 <= weight <= 300):
+            raise ValueError
+    except ValueError:
+        await message.answer("Введи корректный вес (30-300 кг):")
+        return
+    save_user(message.from_user.id, {"weight": weight})
+    await state.clear()
+    await message.answer(f"✅ Вес обновлён: {weight} кг", reply_markup=main_menu_keyboard())
+
+@router.callback_query(F.data == "settings_goal")
+async def edit_goal(callback: CallbackQuery, state: FSMContext):
+    await state.set_state(SettingsStates.editing_goal)
+    await callback.message.answer("Выбери новую цель:", reply_markup=goals_keyboard())
+    await callback.answer()
+
+@router.callback_query(SettingsStates.editing_goal, F.data.startswith("goal_"))
+async def save_goal(callback: CallbackQuery, state: FSMContext):
+    goal_label = GOAL_LABELS.get(callback.data, callback.data)
+    goal = goal_label.split(" ", 1)[1]
+    save_user(callback.from_user.id, {"goal": goal})
+    await state.clear()
+    
+    user = get_user(callback.from_user.id)
+    program = generate_workout_program(user)
+    save_user(callback.from_user.id, {"program": program})
+    
+    await callback.message.answer(
+        f"✅ Цель обновлена: {goal_label}\n\nПерегенерирую программу...\n\n{program}",
+        parse_mode="Markdown",
+        reply_markup=main_menu_keyboard()
+    )
+    await callback.answer()
+
+@router.callback_query(F.data == "settings_profile")
+async def show_profile(callback: CallbackQuery):
+    user = get_user(callback.from_user.id)
+    if not user:
+        await callback.answer("Профиль не найден")
+        return
+    text = (
+        f"👤 *Профиль*\n\n"
+        f"Имя: {user.get('name')}\n"
+        f"Возраст: {user.get('age')} лет\n"
+        f"Вес: {user.get('weight')} кг\n"
+        f"Рост: {user.get('height')} см\n"
+        f"Цель: {user.get('goal')}\n"
+        f"Уровень: {user.get('experience')}\n"
+        f"Дней/неделю: {user.get('days_per_week')}\n"
+        f"Оборудование: {user.get('equipment')}"
+    )
+    await callback.message.answer(text, parse_mode="Markdown")
+    await callback.answer()
