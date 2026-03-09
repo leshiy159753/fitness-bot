@@ -1,1 +1,78 @@
-ZnJvbSBhaW9ncmFtIGltcG9ydCBSb3V0ZXIsIEYKZnJvbSBhaW9ncmFtLmZpbHRlcnMgaW1wb3J0IENvbW1hbmQKZnJvbSBhaW9ncmFtLmZzbS5jb250ZXh0IGltcG9ydCBGU01Db250ZXh0CmZyb20gYWlvZ3JhbS50eXBlcyBpbXBvcnQgTWVzc2FnZQpmcm9tIGFwcC5kYXRhYmFzZSBpbXBvcnQgZ2V0X3VzZXIsIGxvZ193b3Jrb3V0CmZyb20gYXBwLmtleWJvYXJkcyBpbXBvcnQgbWFpbl9tZW51X2tleWJvYXJkLCB3b3Jrb3V0X2xvZ19rZXlib2FyZApmcm9tIGFwcC5zdGF0ZXMgaW1wb3J0IFdvcmtvdXRTdGF0ZXMKCnJvdXRlciA9IFJvdXRlcigpCgpAcm91dGVyLm1lc3NhZ2UoQ29tbWFuZCgicHJvZ3JhbSIpKQpAcm91dGVyLm1lc3NhZ2UoRi50ZXh0ID09ICLwn5KqINCc0L7RjyDQv9GA0L7Qs9GA0LDQvNC80LAiKQphc3luYyBkZWYgc2hvd19wcm9ncmFtKG1lc3NhZ2U6IE1lc3NhZ2UpOgogICAgdXNlciA9IGdldF91c2VyKG1lc3NhZ2UuZnJvbV91c2VyLmlkKQogICAgaWYgbm90IHVzZXI6CiAgICAgICAgYXdhaXQgbWVzc2FnZS5hbnN3ZXIoItCh0L3QsNGH0LDQu9CwINGB0L7Qt9C00LDQuSDQv9GA0L7RhNC40LvRjDogL3Byb2ZpbGUiKQogICAgICAgIHJldHVybgogICAgcHJvZ3JhbSA9IHVzZXIuZ2V0KCJwcm9ncmFtIiwgItCf0YDQvtCz0YDQsNC80LzQsCDQvdC1INGB0L7Qt9C00LDQvdCwLiDQn9C10YDQtdC50LTQuCDQsiAvcHJvZmlsZSIpCiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcihwcm9ncmFtLCBwYXJzZV9tb2RlPSJNYXJrZG93biIpCgpAcm91dGVyLm1lc3NhZ2UoQ29tbWFuZCgibG9nIikpCkByb3V0ZXIubWVzc2FnZShGLnRleHQgPT0gIvCfk5Qg0JTQvdC10LLQvdC40Log0YLRgNC10L3QuNGA0L7QstC+0LoiKQphc3luYyBkZWYgc3RhcnRfbG9nKG1lc3NhZ2U6IE1lc3NhZ2UsIHN0YXRlOiBGU01Db250ZXh0KToKICAgIHVzZXIgPSBnZXRfdXNlcihtZXNzYWdlLmZyb21fdXNlci5pZCkKICAgIGlmIG5vdCB1c2VyOgogICAgICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQodC90LDRh9Cw0LvQsCDRgdC+0LfQtNCw0Lkg0L/RgNC+0YTQuNC70Yw6IC9wcm9maWxlIikKICAgICAgICByZXR1cm4KICAgIGF3YWl0IHN0YXRlLnNldF9zdGF0ZShXb3Jrb3V0U3RhdGVzLmxvZ2dpbmdfZXhlcmNpc2UpCiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigKICAgICAgICAi8J+TnSDQl9Cw0L/QuNGB0YvQstCw0LXQvCDRgtGA0LXQvdC40YDQvtCy0LrRgyFcblxu0JrQsNC60L7QtSDRg9C/0YDQsNC20L3QtdC90LjQtSDQstGL0L/QvtC70L3Rj9C7PyIsCiAgICAgICAgcmVwbHlfbWFya3VwPXdvcmtvdXRfbG9nX2tleWJvYXJkKCkKICAgICkKCkByb3V0ZXIubWVzc2FnZShXb3Jrb3V0U3RhdGVzLmxvZ2dpbmdfZXhlcmNpc2UpCmFzeW5jIGRlZiBsb2dfZXhlcmNpc2UobWVzc2FnZTogTWVzc2FnZSwgc3RhdGU6IEZTTUNvbnRleHQpOgogICAgaWYgbWVzc2FnZS50ZXh0ID09ICLwn5SZINCd0LDQt9Cw0LQiOgogICAgICAgIGF3YWl0IHN0YXRlLmNsZWFyKCkKICAgICAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigi0J7RgtC80LXQvdC10L3Qvi4iLCByZXBseV9tYXJrdXA9bWFpbl9tZW51X2tleWJvYXJkKCkpCiAgICAgICAgcmV0dXJuCiAgICBhd2FpdCBzdGF0ZS51cGRhdGVfZGF0YShleGVyY2lzZT1tZXNzYWdlLnRleHQpCiAgICBhd2FpdCBzdGF0ZS5zZXRfc3RhdGUoV29ya291dFN0YXRlcy5sb2dnaW5nX3NldHMpCiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigi0KHQutC+0LvRjNC60L4g0L/QvtC00YXQvtC00L7QsiDDlyDQv9C+0LLRgtC+0YDQtdC90LjQuT8gKNC90LDQv9GA0LjQvNC10YA6IDPDlzEwKSIpCgpAcm91dGVyLm1lc3NhZ2UoV29ya291dFN0YXRlcy5sb2dnaW5nX3NldHMpCmFzeW5jIGRlZiBsb2dfc2V0cyhtZXNzYWdlOiBNZXNzYWdlLCBzdGF0ZTogRlNNQ29udGV4dCk6CiAgICBwYXJ0cyA9IG1lc3NhZ2UudGV4dC5yZXBsYWNlKCLRhSIsICJ4Iikuc3BsaXQoIngiKQogICAgaWYgbGVuKHBhcnRzKSAhPSAyIG9yIG5vdCBhbGwocC5zdHJpcCgpLmlzZGlnaXQoKSBmb3IgcCBpbiBwYXJ0cyk6CiAgICAgICAgYXdhaXQgbWVzc2FnZS5hbnN3ZXIoItCS0LLQtdC00Lgg0LIg0YTQvtGA0LzQsNGC0LU6IDPDlzEwICjQv9C+0LTRhdC+0LTRi8OX0L/QvtCy0YLQvtGA0LXQvdC40Y8pIikKICAgICAgICByZXR1cm4KICAgIHNldHMsIHJlcHMgPSBpbnQocGFydHNbMF0uc3RyaXAoKSksIGludChwYXJ0c1sxXS5zdHJpcCgpKQogICAgYXdhaXQgc3RhdGUudXBkYXRlX2RhdGEoc2V0cz1zZXRzLCByZXBzPXJlcHMpCiAgICBhd2FpdCBzdGF0ZS5zZXRfc3RhdGUoV29ya291dFN0YXRlcy5sb2dnaW5nX3dlaWdodCkKICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQktC10YEgKNC60LMpPyDQldGB0LvQuCDQsdC10Lcg0LLQtdGB0LAg4oCUINC90LDQv9C40YjQuCAwIikKCkByb3V0ZXIubWVzc2FnZShXb3Jrb3V0U3RhdGVzLmxvZ2dpbmdfd2VpZ2h0KQphc3luYyBkZWYgbG9nX3dlaWdodChtZXNzYWdlOiBNZXNzYWdlLCBzdGF0ZTogRlNNQ29udGV4dCk6CiAgICB0cnk6CiAgICAgICAgd2VpZ2h0ID0gZmxvYXQobWVzc2FnZS50ZXh0LnJlcGxhY2UoIiwiLCAiLiIpKQogICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgYXdhaXQgbWVzc2FnZS5hbnN3ZXIoItCS0LLQtdC00Lgg0YfQuNGB0LvQviAo0L3QsNC/0YDQuNC80LXRgDogNjAg0LjQu9C4IDApOiIpCiAgICAgICAgcmV0dXJuCiAgICBkYXRhID0gYXdhaXQgc3RhdGUuZ2V0X2RhdGEoKQogICAgYXdhaXQgc3RhdGUuY2xlYXIoKQogICAgCiAgICBsb2dfd29ya291dCgKICAgICAgICBtZXNzYWdlLmZyb21fdXNlci5pZCwKICAgICAgICBkYXRhWyJleGVyY2lzZSJdLAogICAgICAgIGRhdGFbInNldHMiXSwKICAgICAgICBkYXRhWyJyZXBzIl0sCiAgICAgICAgd2VpZ2h0IGlmIHdlaWdodCA+IDAgZWxzZSBOb25lCiAgICApCiAgICAKICAgIHdlaWdodF9zdHIgPSBmIiB8IHt3ZWlnaHR9INC60LMiIGlmIHdlaWdodCA+IDAgZWxzZSAiIgogICAgYXdhaXQgbWVzc2FnZS5hbnN3ZXIoCiAgICAgICAgZiLinIUg0JfQsNC/0LjRgdCw0L3QviFcblxuKntkYXRhWydleGVyY2lzZSddfSog4oCUIHtkYXRhWydzZXRzJ119w5d7ZGF0YVsncmVwcyddfXt3ZWlnaHRfc3RyfVxuXG7Ql9Cw0L/QuNGB0LDRgtGMINC10YnRkT8gL2xvZyIsCiAgICAgICAgcGFyc2VfbW9kZT0iTWFya2Rvd24iLAogICAgICAgIHJlcGx5X21hcmt1cD1tYWluX21lbnVfa2V5Ym9hcmQoKQogICAgKQo=
+from aiogram import Router, F
+from aiogram.filters import Command
+from aiogram.fsm.context import FSMContext
+from aiogram.types import Message
+from app.database import get_user, log_workout
+from app.keyboards import main_menu_keyboard, workout_log_keyboard
+from app.states import WorkoutStates
+
+router = Router()
+
+@router.message(Command("program"))
+@router.message(F.text == "💪 Моя программа")
+async def show_program(message: Message):
+    user = get_user(message.from_user.id)
+    if not user:
+        await message.answer("Сначала создай профиль: /profile")
+        return
+    program = user.get("program", "Программа не создана. Перейди в /profile")
+    await message.answer(program, parse_mode="Markdown")
+
+@router.message(Command("log"))
+@router.message(F.text == "📔 Дневник тренировок")
+async def start_log(message: Message, state: FSMContext):
+    user = get_user(message.from_user.id)
+    if not user:
+        await message.answer("Сначала создай профиль: /profile")
+        return
+    await state.set_state(WorkoutStates.logging_exercise)
+    await message.answer(
+        "📝 Записываем тренировку!\n\nКакое упражнение выполнял?",
+        reply_markup=workout_log_keyboard()
+    )
+
+@router.message(WorkoutStates.logging_exercise)
+async def log_exercise(message: Message, state: FSMContext):
+    if message.text == "🔙 Назад":
+        await state.clear()
+        await message.answer("Отменено.", reply_markup=main_menu_keyboard())
+        return
+    await state.update_data(exercise=message.text)
+    await state.set_state(WorkoutStates.logging_sets)
+    await message.answer("Сколько подходов × повторений? (например: 3×10)")
+
+@router.message(WorkoutStates.logging_sets)
+async def log_sets(message: Message, state: FSMContext):
+    parts = message.text.replace("х", "x").split("x")
+    if len(parts) != 2 or not all(p.strip().isdigit() for p in parts):
+        await message.answer("Введи в формате: 3×10 (подходы×повторения)")
+        return
+    sets, reps = int(parts[0].strip()), int(parts[1].strip())
+    await state.update_data(sets=sets, reps=reps)
+    await state.set_state(WorkoutStates.logging_weight)
+    await message.answer("Вес (кг)? Если без веса — напиши 0")
+
+@router.message(WorkoutStates.logging_weight)
+async def log_weight(message: Message, state: FSMContext):
+    try:
+        weight = float(message.text.replace(",", "."))
+    except ValueError:
+        await message.answer("Введи число (например: 60 или 0):")
+        return
+    data = await state.get_data()
+    await state.clear()
+    
+    log_workout(
+        message.from_user.id,
+        data["exercise"],
+        data["sets"],
+        data["reps"],
+        weight if weight > 0 else None
+    )
+    
+    weight_str = f" | {weight} кг" if weight > 0 else ""
+    await message.answer(
+        f"✅ Записано!\n\n*{data['exercise']}* — {data['sets']}×{data['reps']}{weight_str}\n\nЗаписать ещё? /log",
+        parse_mode="Markdown",
+        reply_markup=main_menu_keyboard()
+    )
