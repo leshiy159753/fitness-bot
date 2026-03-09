@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  bot:
+    build: .
+    container_name: fitness-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+    container_name: fitness-bot-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
