@@ -94,6 +94,6 @@ def generate_default_program(goal: str, days: int, experience: str) -> str:
         day_title, exercises = program_days[i % len(program_days)]
         lines.append(f"\n*{day_title}*")
         for ex in exercises:
-            lines.append(f"  • {ex}")
+            lines.append(f"  \u2022 {ex}")
 
     return "\n".join(lines)
