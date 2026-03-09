@@ -1,1 +1,39 @@
-ZnJvbSBhaW9ncmFtIGltcG9ydCBSb3V0ZXIKZnJvbSBhaW9ncmFtLmZpbHRlcnMgaW1wb3J0IENvbW1hbmQKZnJvbSBhaW9ncmFtLnR5cGVzIGltcG9ydCBNZXNzYWdlCmZyb20gYXBwLmRhdGFiYXNlIGltcG9ydCBnZXRfdXNlcgpmcm9tIGFwcC5rZXlib2FyZHMgaW1wb3J0IG1haW5fbWVudV9rZXlib2FyZAoKcm91dGVyID0gUm91dGVyKCkKCkByb3V0ZXIubWVzc2FnZShDb21tYW5kKCJzdGFydCIpKQphc3luYyBkZWYgY21kX3N0YXJ0KG1lc3NhZ2U6IE1lc3NhZ2UpOgogICAgdXNlciA9IGdldF91c2VyKG1lc3NhZ2UuZnJvbV91c2VyLmlkKQogICAgaWYgdXNlcjoKICAgICAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigKICAgICAgICAgICAgZiLQoSDQstC+0LfQstGA0LDRidC10L3QuNC10LwsIHt1c2VyLmdldCgnbmFtZScsICfRgdC/0L7RgNGC0YHQvNC10L0nKX0hIPCfkqpcblxu0KfQtdC8INC30LDQudC80ZHQvNGB0Y8g0YHQtdCz0L7QtNC90Y8/IiwKICAgICAgICAgICAgcmVwbHlfbWFya3VwPW1haW5fbWVudV9rZXlib2FyZCgpCiAgICAgICAgKQogICAgZWxzZToKICAgICAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigKICAgICAgICAgICAgItCf0YDQuNCy0LXRgiEg0K8g0YLQstC+0Lkg0L/QtdGA0YHQvtC90LDQu9GM0L3Ri9C5INGE0LjRgtC90LXRgS3RgtGA0LXQvdC10YAg8J+Pi++4j1xuXG4iCiAgICAgICAgICAgICLQodC+0YHRgtCw0LLQu9GOINC/0YDQvtCz0YDQsNC80LzRgyDRgtGA0LXQvdC40YDQvtCy0L7QuiDQv9C+0LQg0YLQstC+0Lgg0YbQtdC70Lgg0Lgg0L/QvtC80L7Qs9GDINCy0LXRgdGC0Lgg0LTQvdC10LLQvdC40LouXG5cbiIKICAgICAgICAgICAgItCd0LDQv9C40YjQuCAvcHJvZmlsZSDRh9GC0L7QsdGLINC90LDRh9Cw0YLRjCDQvdCw0YHRgtGA0L7QudC60YMg0L/RgNC+0YTQuNC70Y8hIgogICAgICAgICkKCkByb3V0ZXIubWVzc2FnZShDb21tYW5kKCJtZW51IikpCmFzeW5jIGRlZiBjbWRfbWVudShtZXNzYWdlOiBNZXNzYWdlKToKICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQk9C70LDQstC90L7QtSDQvNC10L3RjjoiLCByZXBseV9tYXJrdXA9bWFpbl9tZW51X2tleWJvYXJkKCkpCgpAcm91dGVyLm1lc3NhZ2UoQ29tbWFuZCgiaGVscCIpKQphc3luYyBkZWYgY21kX2hlbHAobWVzc2FnZTogTWVzc2FnZSk6CiAgICBhd2FpdCBtZXNzYWdlLmFuc3dlcigKICAgICAgICAi8J+TiyAq0JTQvtGB0YLRg9C/0L3Ri9C1INC60L7QvNCw0L3QtNGLOipcblxuIgogICAgICAgICIvc3RhcnQg4oCUINCd0LDRh9Cw0LvQviDRgNCw0LHQvtGC0YtcbiIKICAgICAgICAiL3Byb2ZpbGUg4oCUINCd0LDRgdGC0YDQvtC40YLRjCDQv9GA0L7RhNC40LvRjFxuIgogICAgICAgICIvcHJvZ3JhbSDigJQg0JzQvtGPINC/0YDQvtCz0YDQsNC80LzQsCDRgtGA0LXQvdC40YDQvtCy0L7QulxuIgogICAgICAgICIvbG9nIOKAlCDQl9Cw0L/QuNGB0LDRgtGMINGC0YDQtdC90LjRgNC+0LLQutGDXG4iCiAgICAgICAgIi9wcm9ncmVzcyDigJQg0JzQvtC5INC/0YDQvtCz0YDQtdGB0YFcbiIKICAgICAgICAiL21lbnUg4oCUINCT0LvQsNCy0L3QvtC1INC80LXQvdGOIiwKICAgICAgICBwYXJzZV9tb2RlPSJNYXJrZG93biIKICAgICkK
+from aiogram import Router
+from aiogram.filters import Command
+from aiogram.types import Message
+from app.database import get_user
+from app.keyboards import main_menu_keyboard
+
+router = Router()
+
+@router.message(Command("start"))
+async def cmd_start(message: Message):
+    user = get_user(message.from_user.id)
+    if user:
+        await message.answer(
+            f"С возвращением, {user.get('name', 'спортсмен')}! 💪\n\nЧем займёмся сегодня?",
+            reply_markup=main_menu_keyboard()
+        )
+    else:
+        await message.answer(
+            "Привет! Я твой персональный фитнес-тренер 🏋️\n\n"
+            "Составлю программу тренировок под твои цели и помогу вести дневник.\n\n"
+            "Напиши /profile чтобы начать настройку профиля!"
+        )
+
+@router.message(Command("menu"))
+async def cmd_menu(message: Message):
+    await message.answer("Главное меню:", reply_markup=main_menu_keyboard())
+
+@router.message(Command("help"))
+async def cmd_help(message: Message):
+    await message.answer(
+        "📋 *Доступные команды:*\n\n"
+        "/start — Начало работы\n"
+        "/profile — Настроить профиль\n"
+        "/program — Моя программа тренировок\n"
+        "/log — Записать тренировку\n"
+        "/progress — Мой прогресс\n"
+        "/menu — Главное меню",
+        parse_mode="Markdown"
+    )
