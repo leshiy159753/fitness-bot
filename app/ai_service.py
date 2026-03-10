@@ -1,1 +1,159 @@
-aW1wb3J0IGpzb24KZnJvbSAuY29uZmlnIGltcG9ydCBBTlRIUk9QSUNfQVBJX0tFWQoKCmRlZiBnZW5lcmF0ZV9tb250aGx5X3BsYW4odXNlcl9wcm9maWxlOiBkaWN0KSAtPiBsaXN0OgogICAgIiIiCiAgICBHZW5lcmF0ZSBhIDMwLWRheSB3b3Jrb3V0IHBsYW4gdXNpbmcgQ2xhdWRlIEFQSS4KICAgIFJldHVybnMgbGlzdCBvZiAzMCBkYXlzLCBlYWNoIGRheSBpcyBhIGxpc3Qgb2YgZXhlcmNpc2UgZGljdHM6CiAgICBbe25hbWUsIHNldHMsIHJlcHMsIHJlc3QsIHZpZGVvX3VybH0sIC4uLl0KICAgIEZhbGxzIGJhY2sgdG8gZGVmYXVsdCBwbGFuIGlmIG5vIEFQSSBrZXkuCiAgICAiIiIKICAgIGlmIG5vdCBBTlRIUk9QSUNfQVBJX0tFWToKICAgICAgICByZXR1cm4gX2RlZmF1bHRfbW9udGhseV9wbGFuKHVzZXJfcHJvZmlsZSkKCiAgICBpbXBvcnQgYW50aHJvcGljCiAgICBjbGllbnQgPSBhbnRocm9waWMuQW50aHJvcGljKGFwaV9rZXk9QU5USFJPUElDX0FQSV9LRVkpCgogICAgcHJvbXB0ID0gZiIiItCh0L7Qt9C00LDQuSDQv9C70LDQvSDRgtGA0LXQvdC40YDQvtCy0L7QuiDQvdCwIDMwINC00L3QtdC5INC00LvRjyDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y86CtCY0LzRjzoge3VzZXJfcHJvZmlsZS5nZXQoJ25hbWUnKX0K0JLQvtC30YDQsNGB0YI6IHt1c2VyX3Byb2ZpbGUuZ2V0KCdhZ2UnKX0g0LvQtdGCCtCS0LXRgzoge3VzZXJfcHJvZmlsZS5nZXQoJ3dlaWdodCcpfSDQutCzCtCg0L7RgdGCOiB7dXNlcl9wcm9maWxlLmdldCgnaGVpZ2h0Jyl9INGB0LwK0KbQtdC70Yw6IHt1c2VyX3Byb2ZpbGUuZ2V0KCdnb2FsJyl9CtCj0YDQvtCy0LXQvdGMOiB7dXNlcl9wcm9maWxlLmdldCgnZXhwZXJpZW5jZScpfQrQlNC90LXQuSDQsiDQvdC10LTQtdC70Y46IHt1c2VyX3Byb2ZpbGUuZ2V0KCdkYXlzX3Blcl93ZWVrJyl9CtCe0LHQvtGA0YPQtNC+0LLQsNC90LjQtToge3VzZXJfcHJvZmlsZS5nZXQoJ2VxdWlwbWVudCcpfQoK0JLQtdGA0L3QuCDQotCe0JvQrNCa0J4g0LLQsNC70LjQtNC90YvQuSBKU09OINC80LDRgdGB0LjQsiDQuNC3IDMwINGN0LvQtdC80LXQvdGC0L7QsiAo0LTQvdC4KS4K0JrQsNC20LTRi9C5INGN0LvQtdC80LXQvdGCIOKAlCDQvNCw0YHRgdC40LIg0YPQv9GA0LDQttC90LXQvdC40LkgKNC+0YIgMSDQtNC+IDYpLgrQmtCw0LbQtNC+0LUg0YPQv9GA0LDQttC90LXQvdC40LUg4oCUINC+0LHRitC10LrRgiDRgSDQv9C+0LvRj9C80Lg6Ci0gbmFtZSAoc3RyaW5nKTog0L3QsNC30LLQsNC90LjQtSDRg9C/0YDQsNC20L3QtdC90LjRjyDQvdCwINGA0YPRgdGB0LrQvtC8Ci0gc2V0cyAoaW50KTog0LrQvtC70LjRh9C10YHRgtCy0L4g0L/QvtC00YXQvtC00L7QsgotIHJlcHMgKHN0cmluZyk6INC/0L7QstGC0L7RgNC10L3QuNGPINC40LvQuCDQstGA0LXQvNGPLCDQvdCw0L/RgNC40LzQtdGAICIxMiIg0LjQu9C4ICIJNjAg0YHQtdC6IgotIHJlc3QgKGludCk6INC+0YLQtNGL0YUg0LzQtdC20LTRgyDQv9C+0LTRhdC+0LTQsNC80Lgg0LIg0YHQtdC60YPQvdC00LDRhdCKLSB2aWRlb191cmwgKHN0cmluZyk6INGB0YHRi9C70LrQsCDQvdCwIFlvdVR1YmUg0LLQuNC00LXQviDRgSDRgtC10YXQvdC40LrQvtC5ICjRgNC10LDQu9GM0L3QsNGPINC40LvQuCDQv9GD0YHRgtCw0Y8g0YHRgtGA0L7QutCwKQoK0JTQvdC4INC+0YLQtNGL0YXQsCDigJQg0L/Rg9GB0YLQvtC5INC80LDRgdGB0LjQsiDbXS4K0J/RgNC40LzQtdGAINC+0LTQvdC+0LPQviDQtNC90Y86IFt7Im5hbWUiOiAi0J/RgNC40YHQtdC00LDQvdC40Y8iLCAic2V0cyI6IDMsICJyZXBzIjogIjEyIiwgInJlc3QiOiA2MCwgInZpZGVvX3VybCI6ICIifV1dCgrQktC10YDQvdC4INGC0L7Qu9GM0LrQviBKU09OLCDQsdC10Lcg0L/QvtGP0YHQvdC10L3QuNC5LiIiIgoKICAgIG1lc3NhZ2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgICAgIG1vZGVsPSJjbGF1ZGUtMy01LWhhaWt1LTIwMjQxMDIyIiwKICAgICAgICBtYXhfdG9rZW5zPTQwMDAsCiAgICAgICAgbWVzc2FnZXM9W3sicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiBwcm9tcHR9XQogICAgKQoKICAgIHRleHQgPSBtZXNzYWdlLmNvbnRlbnRbMF0udGV4dC5zdHJpcCgpCiAgICAjIFN0cmlwIG1hcmtkb3duIGNvZGUgYmxvY2tzIGlmIHByZXNlbnQKICAgIGlmIHRleHQuc3RhcnRzd2l0aCgiYGBgIik6CiAgICAgICAgdGV4dCA9IHRleHQuc3BsaXQoImBgYCIpWzFdCiAgICAgICAgaWYgdGV4dC5zdGFydHN3aXRoKCJqc29uIik6CiAgICAgICAgICAgIHRleHQgPSB0ZXh0WzQ6XQogICAgdHJ5OgogICAgICAgIHBsYW4gPSBqc29uLmxvYWRzKHRleHQpCiAgICAgICAgaWYgaXNpbnN0YW5jZShwbGFuLCBsaXN0KSBhbmQgbGVuKHBsYW4pID09IDMwOgogICAgICAgICAgICByZXR1cm4gcGxhbgogICAgZXhjZXB0IChqc29uLkpTT05EZWNvZGVFcnJvciwgVmFsdWVFcnJvcik6CiAgICAgICAgcGFzcwoKICAgIHJldHVybiBfZGVmYXVsdF9tb250aGx5X3BsYW4odXNlcl9wcm9maWxlKQoKCmRlZiBfZGVmYXVsdF9tb250aGx5X3BsYW4odXNlcl9wcm9maWxlOiBkaWN0KSAtPiBsaXN0OgogICAgIiIiSGFyZGNvZGVkIDMwLWRheSBwbGFuIGN5Y2xpbmcgdGhyb3VnaCBleGVyY2lzZSBncm91cHMuIiIiCiAgICBnb2FsID0gdXNlcl9wcm9maWxlLmdldCgiZ29hbCIsICLQn9C+0LTQtNC10YDQttCw0L3QuNC1INGE0L7RgNC80YsiKQogICAgZGF5c19wZXJfd2VlayA9IGludCh1c2VyX3Byb2ZpbGUuZ2V0KCJkYXlzX3Blcl93ZWVrIiwgMykpCgogICAgIyBFeGVyY2lzZSB0ZW1wbGF0ZXMgcGVyIGdvYWwKICAgIHRlbXBsYXRlcyA9IHsKICAgICAgICAi0J/QvtGF0YPQtNC10L3QuNC1IjogWwogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0J/RgNC40YHQtdC00LDQvdC40Y8iLCAic2V0cyI6IDQsICJyZXBzIjogIjE1IiwgInJlc3QiOiA0NSwgInZpZGVvX3VybCI6ICIifSwKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQntGC0LbQuNC80LDQvdC40Y8iLCAic2V0cyI6IDMsICJyZXBzIjogIjEyIiwgInJlc3QiOiA0NSwgInZpZGVvX3VybCI6ICIifSwKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQn9C70LDQvdC60LAiLCAic2V0cyI6IDMsICJyZXBzIjogIjYwINGB0LXQqiIsICJyZXN0IjogMzAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0JHRg9GA0L/QuCIsICJzZXRzIjogMywgInJlcHMiOiAiMTAiLCAicmVzdCI6IDYwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICBdLAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0JLRi9C/0LDQtNGLIiwgInNldHMiOiAzLCAicmVwcyI6ICIxMiIsICJyZXN0IjogNDUsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0J7RgtC20LjQvNCw0L3QuNGPINC90LAg0YLRgNC40YbQtdC/0YEiLCAic2V0cyI6IDMsICJyZXBzIjogIjEyIiwgInJlc3QiOiA0NSwgInZpZGVvX3VybCI6ICIifSwKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQn9C+0LTRitGR0LzRiyDQvdC+0LPQsCDQu9GR0LbQsCIsICJzZXRzIjogMywgInJlcHMiOiAiMTUiLCAicmVzdCI6IDMwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICAgICAgeyJuYW1lIjogItCf0YDRi9C20LrQuCDQvdCwINC80LXRgdGC0LUiLCAic2V0cyI6IDQsICJyZXBzIjogIjMwINGB0LXQqiIsICJyZXN0IjogMzAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQodGC0LDQvdC+0LLQsNGPINGC0Y/Qs9CwIiwgInNldHMiOiAzLCAicmVwcyI6ICIxMiIsICJyZXN0IjogNjAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0KLRj9Cz0LAg0LPQsNC90YLQtdC70LXQuSIsICJzZXRzIjogMywgInJlcHMiOiAiMTIiLCAicmVzdCI6IDYwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICAgICAgeyJuYW1lIjogItCh0LrRgNGD0YfQuNCy0LDQvdC40Y8iLCAic2V0cyI6IDMsICJyZXBzIjogIjIwIiwgInJlc3QiOiAzMCwgInZpZGVvX3VybCI6ICIifSwKICAgICAgICAgICAgXSwKICAgICAgICBdLAogICAgICAgICLQndCw0LHQvtGAINC80LDRgdGB0YsiOiBbCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQltC40Lwg0LvRkdC20LAiLCAic2V0cyI6IDQsICJyZXBzIjogIjgiLCAicmVzdCI6IDkwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICAgICAgeyJuYW1lIjogItCg0LDQt9Cy0L7QtNC60LAg0LPQsNC90YLQtdC70LXQuSIsICJzZXRzIjogMywgInJlcHMiOiAiMTIiLCAicmVzdCI6IDYwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICAgICAgeyJuYW1lIjogItCk0YDQsNC90YbRg9C30YHQutC40Lkg0LbQuNC8IiwgInNldHMiOiA0LCAicmVwcyI6ICIxMCIsICJyZXN0IjogNjAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQotGP0LPQsCDRiNGC0LDQvdCz0LgiLCAic2V0cyI6IDQsICJyZXBzIjogIjgiLCAicmVzdCI6IDkwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICAgICAgeyJuYW1lIjogItCi0Y/Qs9CwINCy0LXRgNGF0L3QtdCz0L4g0LHQu9C+0LrQsCIsICJzZXRzIjogNCwgInJlcHMiOiAiMTAiLCAicmVzdCI6IDYwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICAgICAgeyJuYW1lIjogItCf0L7QtNGK0ZHQvCDQs9Cw0L3RgtC10LvQtdC5INC90LAg0LHQuNGG0LXQv9GBIiwgInNldHMiOiA0LCAicmVwcyI6ICIxMiIsICJyZXN0IjogNjAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQn9GA0LjRgdC10LTQsNC90LjRjyDRgdC+INGI0YLQsNC90LPQvtC5IiwgInNldHMiOiA0LCAicmVwcyI6ICI4IiwgInJlc3QiOiA5MCwgInZpZGVvX3VybCI6ICIifSwKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQltC40Lwg0L3QvtCz0LDQvNC4IiwgInNldHMiOiA0LCAicmVwcyI6ICIxMCIsICJyZXN0IjogOTAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0KDQsNC30LPQuNCx0LDQvdC40Y8g0L3QvtCzIiwgInNldHMiOiAzLCAicmVwcyI6ICIxMiIsICJyZXN0IjogNjAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgIF0sCiAgICAgICAgXSwKICAgICAgICAi0KHQuNC70LAiOiBbCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQn9GA0LjRgdC10LTQsNC90LjRjyDRgdC+INGI0YLQsNC90LPQvtC5IiwgInNldHMiOiA1LCAicmVwcyI6ICI1IiwgInJlc3QiOiAxODAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0JbQuNC8INC70ZHQttCwIiwgInNldHMiOiA1LCAicmVwcyI6ICI1IiwgInJlc3QiOiAxODAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQodGC0LDQvdC+0LLQsNGPINGC0Y/Qs9CwIiwgInNldHMiOiA1LCAicmVwcyI6ICI1IiwgInJlc3QiOiAxODAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0JbQuNC8INGB0YLQvtGPIiwgInNldHMiOiA1LCAicmVwcyI6ICI1IiwgInJlc3QiOiAxODAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIHsibmFtZSI6ICLQn9GA0LjRgdC10LTQsNC90LjRjyDRgdC+INGI0YLQsNC90LPQvtC5IiwgInNldHMiOiAzLCAicmVwcyI6ICIzIiwgInJlc3QiOiAyNDAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0JbQuNC8INC70ZHQttCwIiwgInNldHMiOiAzLCAicmVwcyI6ICIzIiwgInJlc3QiOiAyNDAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0KHRgtCw0L3QvtCy0LDRjyDRgtGP0LPQsCIsICJzZXRzIjogMywgInJlcHMiOiAiMyIsICJyZXN0IjogMjQwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICBdLAogICAgICAgIF0sCiAgICAgICAgItCf0L7QtNC00LXRgNC20LDQvdC40LUg0YTQvtGA0LzRiyI6IFsKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgeyJuYW1lIjogItCf0YDQuNGB0LXQtNCw0L3QuNGPIiwgInNldHMiOiAzLCAicmVwcyI6ICIxMiIsICJyZXN0IjogNjAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0J7RgtC20LjQvNCw0L3QuNGPIiwgInNldHMiOiAzLCAicmVwcyI6ICIxMiIsICJyZXN0IjogNjAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0J/Qu9Cw0L3QutCwIiwgInNldHMiOiAzLCAicmVwcyI6ICI0NSDRgdC10KoiLCAicmVzdCI6IDMwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICBdLAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0KLRj9Cz0LAg0LPQsNC90YLQtdC70LXQuSIsICJzZXRzIjogMywgInJlcHMiOiAiMTIiLCAicmVzdCI6IDYwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICAgICAgeyJuYW1lIjogItCW0LjQvCDQs9Cw0L3RgtC10LvQtdC5INC70ZHQttCwIiwgInNldHMiOiAzLCAicmVwcyI6ICIxMiIsICJyZXN0IjogNjAsICJ2aWRlb191cmwiOiAiIn0sCiAgICAgICAgICAgICAgICB7Im5hbWUiOiAi0KHQutGA0YPRh9C40LLQsNC90LjRjyIsICJzZXRzIjogMywgInJlcHMiOiAiMjAiLCAicmVzdCI6IDMwLCAidmlkZW9fdXJsIjogIiJ9LAogICAgICAgICAgICBdLAogICAgICAgIF0sCiAgICB9CgogICAgYmFzZSA9IHRlbXBsYXRlcy5nZXQoZ29hbCwgdGVtcGxhdGVzWyLQn9C+0LTQtNC10YDQttCw0L3QuNC1INGE0L7RgNC80YsiXSkKICAgIHBsYW4gPSBbXQogICAgd29ya291dF9kYXkgPSAwCgogICAgZm9yIGRheV9udW0gaW4gcmFuZ2UoMzApOgogICAgICAgICMgRGV0ZXJtaW5lIGlmIHRoaXMgaXMgYSB3b3Jrb3V0IG9yIHJlc3QgZGF5IGJhc2VkIG9uIGRheXNfcGVyX3dlZWsKICAgICAgICB3ZWVrX2RheSA9IGRheV9udW0gJSA3CiAgICAgICAgaWYgd2Vla19kYXkgPCBkYXlzX3Blcl93ZWVrOgogICAgICAgICAgICBwbGFuLmFwcGVuZChiYXNlW3dvcmtvdXRfZGF5ICUgbGVuKGJhc2UpXSkKICAgICAgICAgICAgd29ya291dF9kYXkgKz0gMQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHBsYW4uYXBwZW5kKFtdKSAgIyByZXN0IGRheQoKICAgIHJldHVybiBwbGFuCgoKZGVmIGdldF9haV9tb3RpdmF0aW9uKGV4ZXJjaXNlX25hbWU6IHN0ciwgc2V0c19kb25lOiBpbnQsIHRvdGFsX3NldHM6IGludCkgLT4gc3RyOgogICAgIiIiUmV0dXJuIGEgc2hvcnQgbW90aXZhdGlvbmFsIG1lc3NhZ2UgKG5vIEFQSSBjYWxsKS4iIiIKICAgIGlmIHNldHNfZG9uZSA9PSAwOgogICAgICAgIHJldHVybiBmItCd0LDRh9C40L3QsNC10Lwge2V4ZXJjaXNlX25hbWV9ISDQotGLINGB0L/RgNCw0LLQuNGI0YzRgdGPIFxVMDAwMWY0YWEiCiAgICBpZiBzZXRzX2RvbmUgPCB0b3RhbF9zZXRzOgogICAgICAgIHJlbWFpbmluZyA9IHRvdGFsX3NldHMgLSBzZXRzX2RvbmUKICAgICAgICByZXR1cm4gZiLQntGC0LvQuNGH0L3QviEg0J7RgdGC0LDQu9C+0YHRjCB7cmVtYWluaW5nfSDQv9C+0LTRhdC+0LQo0LApLiDQlNC10YDQttC40YHRjCEgXFUwMDAxZjUyNSIKICAgIHJldHVybiBmItCj0L/RgNCw0LbQvdC10L3QuNC1INC30LDQstC10YDRiNC10L3QviEg0J7RgtC70LjRh9C90LDRjyDRgNCw0LHQvtGC0LAgXFUwMDAxZjM4OSIK
+import json
+from .config import ANTHROPIC_API_KEY
+
+
+def generate_monthly_plan(user_profile: dict) -> list:
+    """
+    Generate a 30-day workout plan using Claude API.
+    Returns list of 30 days, each day is a list of exercise dicts:
+    [{name, sets, reps, rest, video_url}, ...]
+    Falls back to default plan if no API key.
+    """
+    if not ANTHROPIC_API_KEY:
+        return _default_monthly_plan(user_profile)
+
+    import anthropic
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+
+    prompt = f"""Создай план тренировок на 30 дней для пользователя:
+Имя: {user_profile.get('name')}
+Возраст: {user_profile.get('age')} лет
+Вес: {user_profile.get('weight')} кг
+Рост: {user_profile.get('height')} см
+Цель: {user_profile.get('goal')}
+Уровень: {user_profile.get('experience')}
+Дней в неделю: {user_profile.get('days_per_week')}
+Оборудование: {user_profile.get('equipment')}
+
+Верни ТОЛЬКО валидный JSON массив из 30 элементов (дни).
+Каждый элемент — массив упражнений (от 1 до 6).
+Каждое упражнение — объект с полями:
+- name (string): название упражнения на русском
+- sets (int): количество подходов
+- reps (string): повторения или время, например "12" или "60 сек"
+- rest (int): отдых между подходами в секундах
+- video_url (string): ссылка на YouTube видео с техникой (реальная или пустая строка)
+
+Дни отдыха — пустой массив [].
+Пример одного дня: [{"name": "Приседания", "sets": 3, "reps": "12", "rest": 60, "video_url": ""}]
+
+Верни только JSON, без пояснений."""
+
+    message = client.messages.create(
+        model="claude-3-5-haiku-20241022",
+        max_tokens=4000,
+        messages=[{"role": "user", "content": prompt}]
+    )
+
+    text = message.content[0].text.strip()
+    # Strip markdown code blocks if present
+    if text.startswith("```"):
+        text = text.split("```")[1]
+        if text.startswith("json"):
+            text = text[4:]
+    try:
+        plan = json.loads(text)
+        if isinstance(plan, list) and len(plan) == 30:
+            return plan
+    except (json.JSONDecodeError, ValueError):
+        pass
+
+    return _default_monthly_plan(user_profile)
+
+
+def _default_monthly_plan(user_profile: dict) -> list:
+    """Hardcoded 30-day plan cycling through exercise groups."""
+    goal = user_profile.get("goal", "Поддержание формы")
+    days_per_week = int(user_profile.get("days_per_week", 3))
+
+    # Exercise templates per goal
+    templates = {
+        "Похудение": [
+            [
+                {"name": "Приседания", "sets": 4, "reps": "15", "rest": 45, "video_url": ""},
+                {"name": "Отжимания", "sets": 3, "reps": "12", "rest": 45, "video_url": ""},
+                {"name": "Планка", "sets": 3, "reps": "60 сек", "rest": 30, "video_url": ""},
+                {"name": "Бурпи", "sets": 3, "reps": "10", "rest": 60, "video_url": ""},
+            ],
+            [
+                {"name": "Выпады", "sets": 3, "reps": "12", "rest": 45, "video_url": ""},
+                {"name": "Отжимания на трицепс", "sets": 3, "reps": "12", "rest": 45, "video_url": ""},
+                {"name": "Подъёмы ног лёжа", "sets": 3, "reps": "15", "rest": 30, "video_url": ""},
+                {"name": "Прыжки на месте", "sets": 4, "reps": "30 сек", "rest": 30, "video_url": ""},
+            ],
+            [
+                {"name": "Становая тяга", "sets": 3, "reps": "12", "rest": 60, "video_url": ""},
+                {"name": "Тяга гантелей", "sets": 3, "reps": "12", "rest": 60, "video_url": ""},
+                {"name": "Скручивания", "sets": 3, "reps": "20", "rest": 30, "video_url": ""},
+            ],
+        ],
+        "Набор массы": [
+            [
+                {"name": "Жим лёжа", "sets": 4, "reps": "8", "rest": 90, "video_url": ""},
+                {"name": "Разводка гантелей", "sets": 3, "reps": "12", "rest": 60, "video_url": ""},
+                {"name": "Французский жим", "sets": 4, "reps": "10", "rest": 60, "video_url": ""},
+            ],
+            [
+                {"name": "Тяга штанги", "sets": 4, "reps": "8", "rest": 90, "video_url": ""},
+                {"name": "Тяга верхнего блока", "sets": 4, "reps": "10", "rest": 60, "video_url": ""},
+                {"name": "Подъём гантелей на бицепс", "sets": 4, "reps": "12", "rest": 60, "video_url": ""},
+            ],
+            [
+                {"name": "Приседания со штангой", "sets": 4, "reps": "8", "rest": 90, "video_url": ""},
+                {"name": "Жим ногами", "sets": 4, "reps": "10", "rest": 90, "video_url": ""},
+                {"name": "Разгибания ног", "sets": 3, "reps": "12", "rest": 60, "video_url": ""},
+            ],
+        ],
+        "Сила": [
+            [
+                {"name": "Приседания со штангой", "sets": 5, "reps": "5", "rest": 180, "video_url": ""},
+                {"name": "Жим лёжа", "sets": 5, "reps": "5", "rest": 180, "video_url": ""},
+            ],
+            [
+                {"name": "Становая тяга", "sets": 5, "reps": "5", "rest": 180, "video_url": ""},
+                {"name": "Жим стоя", "sets": 5, "reps": "5", "rest": 180, "video_url": ""},
+            ],
+            [
+                {"name": "Приседания со штангой", "sets": 3, "reps": "3", "rest": 240, "video_url": ""},
+                {"name": "Жим лёжа", "sets": 3, "reps": "3", "rest": 240, "video_url": ""},
+                {"name": "Становая тяга", "sets": 3, "reps": "3", "rest": 240, "video_url": ""},
+            ],
+        ],
+        "Поддержание формы": [
+            [
+                {"name": "Приседания", "sets": 3, "reps": "12", "rest": 60, "video_url": ""},
+                {"name": "Отжимания", "sets": 3, "reps": "12", "rest": 60, "video_url": ""},
+                {"name": "Планка", "sets": 3, "reps": "45 сек", "rest": 30, "video_url": ""},
+            ],
+            [
+                {"name": "Тяга гантелей", "sets": 3, "reps": "12", "rest": 60, "video_url": ""},
+                {"name": "Жим гантелей лёжа", "sets": 3, "reps": "12", "rest": 60, "video_url": ""},
+                {"name": "Скручивания", "sets": 3, "reps": "20", "rest": 30, "video_url": ""},
+            ],
+        ],
+    }
+
+    base = templates.get(goal, templates["Поддержание формы"])
+    plan = []
+    workout_day = 0
+
+    for day_num in range(30):
+        # Determine if this is a workout or rest day based on days_per_week
+        week_day = day_num % 7
+        if week_day < days_per_week:
+            plan.append(base[workout_day % len(base)])
+            workout_day += 1
+        else:
+            plan.append([])  # rest day
+
+    return plan
+
+
+def get_ai_motivation(exercise_name: str, sets_done: int, total_sets: int) -> str:
+    """Return a short motivational message (no API call)."""
+    if sets_done == 0:
+        return f"Начинаем {exercise_name}! Ты справишься \U0001f4aa"
+    if sets_done < total_sets:
+        remaining = total_sets - sets_done
+        return f"Отлично! Осталось {remaining} подход(а). Держись! \U0001f525"
+    return f"Упражнение завершено! Отличная работа \U0001f389"
