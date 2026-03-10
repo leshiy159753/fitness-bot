@@ -1,19 +1,20 @@
 import json
-from .config import ANTHROPIC_API_KEY
+from .config import GEMINI_API_KEY
 
 
 def generate_monthly_plan(user_profile: dict) -> list:
     """
-    Generate a 30-day workout plan using Claude API.
+    Generate a 30-day workout plan using Gemini API.
     Returns list of 30 days, each day is a list of exercise dicts:
     [{name, sets, reps, rest, video_url}, ...]
     Falls back to default plan if no API key.
     """
-    if not ANTHROPIC_API_KEY:
+    if not GEMINI_API_KEY:
         return _default_monthly_plan(user_profile)
 
-    import anthropic
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    import google.generativeai as genai
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel("gemini-2.0-flash")
 
     prompt = f"""Создай план тренировок на 30 дней для пользователя:
 Имя: {user_profile.get('name')}
@@ -35,22 +36,19 @@ def generate_monthly_plan(user_profile: dict) -> list:
 - video_url (string): ссылка на YouTube видео с техникой (реальная или пустая строка)
 
 Дни отдыха — пустой массив [].
-Пример одного дня: [{{"name": "Приседания", "sets": 3, "reps": "12", "rest": 60, "video_url": ""}}]
+Пример одного дня: [{"name": "Приседания", "sets": 3, "reps": "12", "rest": 60, "video_url": ""}]
 
 Верни только JSON, без пояснений."""
 
-    message = client.messages.create(
-        model="claude-3-5-haiku-20241022",
-        max_tokens=4000,
-        messages=[{"role": "user", "content": prompt}]
-    )
+    response = model.generate_content(prompt)
+    text = response.text.strip()
 
-    text = message.content[0].text.strip()
-    # Strip markdown code blocks if present
     if text.startswith("```"):
         text = text.split("```")[1]
         if text.startswith("json"):
             text = text[4:]
+    text = text.strip()
+
     try:
         plan = json.loads(text)
         if isinstance(plan, list) and len(plan) == 30:
@@ -66,7 +64,6 @@ def _default_monthly_plan(user_profile: dict) -> list:
     goal = user_profile.get("goal", "Поддержание формы")
     days_per_week = int(user_profile.get("days_per_week", 3))
 
-    # Exercise templates per goal
     templates = {
         "Похудение": [
             [
@@ -138,13 +135,12 @@ def _default_monthly_plan(user_profile: dict) -> list:
     workout_day = 0
 
     for day_num in range(30):
-        # Determine if this is a workout or rest day based on days_per_week
         week_day = day_num % 7
         if week_day < days_per_week:
             plan.append(base[workout_day % len(base)])
             workout_day += 1
         else:
-            plan.append([])  # rest day
+            plan.append([])
 
     return plan
 
@@ -152,8 +148,8 @@ def _default_monthly_plan(user_profile: dict) -> list:
 def get_ai_motivation(exercise_name: str, sets_done: int, total_sets: int) -> str:
     """Return a short motivational message (no API call)."""
     if sets_done == 0:
-        return f"Начинаем {exercise_name}! Ты справишься \U0001f4aa"
+        return f"Начинаем {exercise_name}! Ты справишься 💪"
     if sets_done < total_sets:
         remaining = total_sets - sets_done
-        return f"Отлично! Осталось {remaining} подход(а). Держись! \U0001f525"
-    return f"Упражнение завершено! Отличная работа \U0001f389"
+        return f"Отлично! Осталось {remaining} подход(а). Держись! 🔥"
+    return f"Упражнение завершено! Отличная работа 🎉"
