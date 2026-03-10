@@ -137,8 +137,9 @@ async def log_set(message: Message, state: FSMContext):
         await _next_exercise(message, state, user, skipped=True)
         return
 
-    # Handle "set done" button
+    # Handle "set done" button — use last logged or prompt
     if message.text == "\u2705 Подход выполнен":
+        # Log set with no weight/reps (just mark done)
         state_data = await state.get_data()
         sets_done = state_data.get("sets_done", 0) + 1
         today_sets = user.get("today_sets", [])
@@ -194,6 +195,7 @@ async def _after_set(message: Message, state: FSMContext, user: dict, sets_done:
     total_exercises = len(today)
 
     if sets_done < exercise["sets"]:
+        # More sets to do
         motivation = get_ai_motivation(exercise["name"], sets_done, exercise["sets"])
         await message.answer(
             f"\u23f1 Отдых {exercise['rest']} сек\n\n_{motivation}_\n\n"
@@ -202,6 +204,7 @@ async def _after_set(message: Message, state: FSMContext, user: dict, sets_done:
             reply_markup=set_done_keyboard()
         )
     else:
+        # All sets done — log and move to next exercise check
         ex_idx = user.get("current_exercise_idx", 0)
         log_exercise_sets(
             message.from_user.id,
@@ -219,6 +222,7 @@ async def _after_set(message: Message, state: FSMContext, user: dict, sets_done:
             )
             await state.set_state(WorkoutStates.between_sets)
         else:
+            # All exercises done
             await state.clear()
             finish_day(message.from_user.id)
             history = get_workout_history(message.from_user.id, limit=len(today))
@@ -248,6 +252,7 @@ async def next_exercise(message: Message, state: FSMContext):
 async def _next_exercise(message: Message, state: FSMContext, user: dict, skipped: bool = False):
     """Advance to next exercise or finish workout."""
     has_next = advance_exercise(message.from_user.id)
+    # Refresh user after advance
     user = get_user(message.from_user.id)
 
     plan = user.get("monthly_plan", [])
@@ -269,6 +274,7 @@ async def _next_exercise(message: Message, state: FSMContext, user: dict, skippe
             reply_markup=set_done_keyboard()
         )
     else:
+        # No more exercises
         await state.clear()
         finish_day(message.from_user.id)
         await message.answer(
