@@ -35,7 +35,7 @@ def generate_monthly_plan(user_profile: dict) -> list:
 - video_url (string): ссылка на YouTube видео с техникой (реальная или пустая строка)
 
 Дни отдыха — пустой массив [].
-Пример одного дня: [{"name": "Приседания", "sets": 3, "reps": "12", "rest": 60, "video_url": ""}]
+Пример одного дня: [{{"name": "Приседания", "sets": 3, "reps": "12", "rest": 60, "video_url": ""}}]
 
 Верни только JSON, без пояснений."""
 
