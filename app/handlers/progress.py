@@ -1,34 +1,36 @@
-ZnJvbSBhaW9ncmFtIGltcG9ydCBSb3V0ZXIsIEYKZnJvbSBhaW9ncmFtLmZp
-bHRlcnMgaW1wb3J0IENvbW1hbmQKZnJvbSBhaW9ncmFtLnR5cGVzIGltcG9y
-dCBNZXNzYWdlCmZyb20gYXBwLmRhdGFiYXNlIGltcG9ydCBnZXRfdXNlciwg
-Z2V0X3dvcmtvdXRfaGlzdG9yeQpmcm9tIGFwcC5rZXlib2FyZHMgaW1wb3J0
-IG1haW5fbWVudV9rZXlib2FyZAoKcm91dGVyID0gUm91dGVyKCkKCkByb3V0
-ZXIubWVzc2FnZShDb21tYW5kKCJwcm9ncmVzcyIpKQpAcm91dGVyLm1lc3Nh
-Z2UoRi50ZXh0ID09ICLwn5OKINCf0YDQvtCz0YDQtdGB0YEiKQphc3luYyBk
-ZWYgc2hvd19wcm9ncmVzcyhtZXNzYWdlOiBNZXNzYWdlKToKICAgIHVzZXIg
-PSBnZXRfdXNlcihtZXNzYWdlLmZyb21fdXNlci5pZCkKICAgIGlmIG5vdCB1
-c2VyOgogICAgICAgIGF3YWl0IG1lc3NhZ2UuYW5zd2VyKCLQodC90LDRh9Cw
-0LvQsCDRgdC+0LfQtNCw0Lkg0L/RgNC+0YTQuNC70Yw6IC9wcm9maWxlIikK
-ICAgICAgICByZXR1cm4KICAgIAogICAgaGlzdG9yeSA9IGdldF93b3Jrb3V0
-X2hpc3RvcnkobWVzc2FnZS5mcm9tX3VzZXIuaWQsIGxpbWl0PTEwKQogICAg
-CiAgICB0ZXh0ID0gKAogICAgICAgIGYi8J+TiiAq0KLQstC+0Lkg0L/RgNC+
-0LPRgNC10YHRgSpcblxuIgogICAgICAgIGYi8J+RpCB7dXNlci5nZXQoJ25h
-bWUnKX0gfCB7dXNlci5nZXQoJ2FnZScpfSDQu9C10YJcbiIKICAgICAgICBm
-IuKalu+4jyDQktC10YE6IHt1c2VyLmdldCgnd2VpZ2h0Jyl9INC60LMgfCDQ
-oNC+0YHRgjoge3VzZXIuZ2V0KCdoZWlnaHQnKX0g0YHQvFxuIgogICAgICAg
-IGYi8J+OryDQptC10LvRjDoge3VzZXIuZ2V0KCdnb2FsJyl9XG4iCiAgICAg
-ICAgZiLwn4+L77iPINCj0YDQvtCy0LXQvdGMOiB7dXNlci5nZXQoJ2V4cGVy
-aWVuY2UnKX1cbiIKICAgICAgICBmIvCfk4Ug0KLRgNC10L3QuNGA0L7QstC+
-0Log0LIg0L3QtdC00LXQu9GOOiB7dXNlci5nZXQoJ2RheXNfcGVyX3dlZWsn
-KX1cblxuIgogICAgKQogICAgCiAgICBpZiBoaXN0b3J5OgogICAgICAgIHRl
-eHQgKz0gZiIq0J/QvtGB0LvQtdC00L3QuNC1INGC0YDQtdC90LjRgNC+0LLQ
-utC4ICh7bGVuKGhpc3RvcnkpfSk6KlxuIgogICAgICAgIGZvciBlbnRyeSBp
-biByZXZlcnNlZChoaXN0b3J5KToKICAgICAgICAgICAgdyA9IGYiIHwge2Vu
-dHJ5Wyd3ZWlnaHQnXX0g0LrQsyIgaWYgZW50cnkuZ2V0KCd3ZWlnaHQnKSBl
-bHNlICIiCiAgICAgICAgICAgIHRleHQgKz0gZiLigKIge2VudHJ5WydkYXRl
-J119IOKAlCB7ZW50cnlbJ2V4ZXJjaXNlJ119IHtlbnRyeVsnc2V0cyddfcOX
-e2VudHJ5WydyZXBzJ119e3d9XG4iCiAgICBlbHNlOgogICAgICAgIHRleHQg
-Kz0gIl/QotGA0LXQvdC40YDQvtCy0L7QuiDQv9C+0LrQsCDQvdC10YIuINCX
-0LDQv9C40YHRi9Cy0LDQuSDRh9C10YDQtdC3IC9sb2dfIgogICAgCiAgICBh
-d2FpdCBtZXNzYWdlLmFuc3dlcih0ZXh0LCBwYXJzZV9tb2RlPSJNYXJrZG93
-biIsIHJlcGx5X21hcmt1cD1tYWluX21lbnVfa2V5Ym9hcmQoKSkK
+from aiogram import Router, F
+from aiogram.filters import Command
+from aiogram.types import Message
+from app.database import get_user, get_workout_history
+from app.keyboards import main_menu_keyboard
+
+router = Router()
+
+@router.message(Command("progress"))
+@router.message(F.text == "📊 Прогресс")
+async def show_progress(message: Message):
+    user = get_user(message.from_user.id)
+    if not user:
+        await message.answer("Сначала создай профиль: /profile")
+        return
+    
+    history = get_workout_history(message.from_user.id, limit=10)
+    
+    text = (
+        f"📊 *Твой прогресс*\n\n"
+        f"👤 {user.get('name')} | {user.get('age')} лет\n"
+        f"⚖️ Вес: {user.get('weight')} кг | Рост: {user.get('height')} см\n"
+        f"🎯 Цель: {user.get('goal')}\n"
+        f"🏋️ Уровень: {user.get('experience')}\n"
+        f"📅 Тренировок в неделю: {user.get('days_per_week')}\n\n"
+    )
+    
+    if history:
+        text += f"*Последние тренировки ({len(history)}):*\n"
+        for entry in reversed(history):
+            w = f" | {entry['weight']} кг" if entry.get('weight') else ""
+            text += f"• {entry['date']} — {entry['exercise']} {entry['sets']}×{entry['reps']}{w}\n"
+    else:
+        text += "_Тренировок пока нет. Записывай через /log_"
+    
+    await message.answer(text, parse_mode="Markdown", reply_markup=main_menu_keyboard())
